@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../partials/header') %>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/products.css">
+    <title>All Products</title>
+  </head>
+  <body class="container">
+    <div class="products_container">
+        <%- include('../partials/sticky-nav') %>
+
+      <div class="bicycleShop">
+        <% for(let bicycle of products) { %>
+        <div class="bicycle">
+          <div class="bicycle__image">
+            <img src="/img/productImg/<%=bicycle.image[0]%>" alt="<%=bicycle.name%>" />
+          </div>
+
+          <div class="bicycle__name">
+            <a href="/single_product/<%=bicycle.id%>"><%=bicycle.name%></a>
+          </div>
+
+          <div class="bicycle__rating">
+            <% for(let index = 0; index < bicycle.star; index++) { %>
+            <span class="fa fa-star checked"></span>
+            <% } %> 
+            <% for(let index = 0; index < 5 - bicycle.star; index++) { %>
+            <span class="fa fa-star"></span>
+            <% } %>
+          </div>
+
+          <div class="bicycle__price">
+            <p class="current_price">
+              <% if(bicycle.hasDiscount) { %>
+                $<%= bicycle.originalPrice * (100 - bicycle.discount) / 100 %>.00
+              <% } else { %>
+                $<%= bicycle.originalPrice %>.00
+              <% } %>
+            </p>
+            <p class="old_price">
+              <% if(bicycle.hasDiscount) { %>
+                $<%= bicycle.originalPrice %>
+              <% } %>
+            </p>
+          </div>
+
+          <% if(bicycle.hasDiscount) { %>
+          <div class="discount__rate"><p><%= bicycle.discount %>% off</p></div>
+          <% } %>
+        </div>
+        <% } %>
+      </div>
+    </div>
+
+    <%- include('../partials/footer') %>
+
+  </body>
+</html>

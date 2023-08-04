@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/header_2') %>
+    <style>
+        .col-md-6{
+            margin-top: 160px;
+        }
+    </style>
+</head>
+<body>
+
+    <%- include('../partials/sticky-nav') %>
+    
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <h3> <%= product.title %></h3>
+                    <div class="d-flex">
+                        <% images.forEach(image => { %>
+                        <div class="mx-2">
+                            <img src="<%=image %>" alt="<%= image %>" class="img-fluid">
+                        </div>
+                        <% }) %>
+                    </div>
+
+
+                    <h4>Price BDT<strong> <%= product.price %></strong></h4>
+                    <p class="description"><%= product.description %></p>
+                    <div class="my-2">
+                        <%- include('../partials/cart_button') %>                       
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+</body>
+</html>

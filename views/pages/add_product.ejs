@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/header_2') %>
+    <title><%- pageTitle %></title>
+
+    <style>
+        nav ul li{
+            list-style: none;
+            display: inline-block;
+        }
+
+        .form-control{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <%- include('../partials/nav_admin') %>
+
+    <main class="container">
+        
+        <h2><%= edit ? 'Edit Product' : 'Add Product' %></h2>
+        <form action="<%= edit ? '/product/edit' : '/product/add' %>" method="POST">
+            <% if(edit) {%>
+                <input type="hidden", name="productId", value="<%= product.id %>">
+            <% } %>
+            <p>
+                <label for="title">Title</label>
+                <input type="text" class="form-control" name="title" value="<%= edit ? product.title : '' %>">
+            </p>
+            <p>
+                <label for="image">Image Url</label>
+                <input type="text" class="form-control" name="image" value="<%= edit ? product.image : '' %>">
+                <input type="text" class="form-control" name="image" value="<%= edit ? product.image : '' %>">
+                <input type="text" class="form-control" name="image" value="<%= edit ? product.image : '' %>">
+                <input type="text" class="form-control" name="image" value="<%= edit ? product.image : '' %>">
+            </p>
+            <p>
+                <label for="price">Price</label>
+                <input type="number" step="any" class="form-control" name="price" value="<%= edit ? product.price : '' %>">
+            </p>
+            <p>
+                <label for="description">Description</label>
+                <textarea name="description" id="description" class="form-control">
+                    <%= edit ? product.description : '' %>
+                </textarea>
+            </p>
+            <p>
+                <button><%= edit ? 'Update Details' : 'Add Product' %></button>
+            </p>
+        </form>
+    </main>
+
+
+    
+</body>
+</html>

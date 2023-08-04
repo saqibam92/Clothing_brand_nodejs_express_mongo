@@ -1,0 +1,33 @@
+.cart-title > div{
+    font-weight: bold;
+    flex: 1;
+    padding: 20px 0px;
+    border-bottom: 1px solid #000;
+}
+
+.cart-product > div{
+    flex: 1;
+    border-bottom: 1px solid #000;
+    padding: 25px 0px;
+
+}
+
+.total-price{
+    padding: 20px 0px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background: #000;
+
+}
+
+button > a{
+    color: #fff;
+}
+
+button:hover > a{
+    color: #eee;
+    font-weight: bold;
+}

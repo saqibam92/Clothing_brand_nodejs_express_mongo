@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <%- include('../partials/header_2') %>
+    <title><%= pageTitle %></title>
+</head>
+<body>
+
+    
+    <%- include('../partials/sticky-nav') %>
+    <div id="carousel">
+        <%- include('../partials/carousel') %>
+    </div>
+
+    <section id="featured_catagory">
+        <h2>popular catagories</h2>
+        <%- include('../partials/featured_catagory') %>
+    </section>
+    
+
+    <div class="new-in">
+        <h2>what's new</h2>
+        <div class="similar-products-wrapper">
+            <div class="smiliar-product-slick">
+                <div class="similar-product">
+                    <div class="similar-product-image">
+                        <img class="similar-img" src="img/productImg/0.webp" alt="">
+                        <button class="view-button">
+                                <a href="/single_product">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                        </button>
+                        <h3 class="similar-product-name">Floral Peach</h3>
+                        <p class="sim-product-price">BDT 1399</p>
+                                        
+                    </div>
+
+                </div>
+                <div class="similar-product">
+                    <div class="similar-product-image">
+                        <img class="similar-img" src="img/productImg/1.webp" alt="">
+                        <button class="view-button">
+                            <a href="/single_product">view product</a>
+                        </button>
+                        <h3 class="similar-product-name">Floral Peach</h3>
+                        <p class="sim-product-price">BDT 1399</p>
+                        
+                    </div>
+                </div>
+                <div class="similar-product">
+                    <div class="similar-product-image">
+                        <img class="similar-img" src="img/productImg/2.webp" alt="">
+                        <button class="view-button">
+                            <a href="/single_product">view product</a>
+                        </button>
+                        <h3 class="similar-product-name">Floral Peach</h3>
+                        <p class="sim-product-price">BDT 1399</p>
+                        
+                    </div>
+                </div>
+                <div class="similar-product">
+                    <div class="similar-product-image">
+                        <img class="similar-img" src="img/productImg/3.webp" alt="">
+                        <button class="view-button">
+                            <a href="/single_product">view product</a>
+                        </button>
+                        <h3 class="similar-product-name">Floral Peach</h3>
+                        <p class="sim-product-price">BDT 1399</p>
+                        
+                    </div>
+                </div>
+                <div class="similar-product">
+                    <div class="similar-product-image">
+                        <img class="similar-img" src="img/productImg/4.webp" alt="">
+                        <button class="view-button">
+                            <a href="/single_product">view product</a>
+                        </button>
+                        <h3 class="similar-product-name">Floral Peach</h3>
+                        <p class="sim-product-price">BDT 1399</p>
+                        
+                    </div>
+                </div>
+                <div class="similar-product">
+                    <div class="similar-product-image">
+                        <img class="similar-img" src="img/productImg/5.webp" alt="">
+                        <button class="view-button">
+                            <a href="/single_product">view product</a>
+                        </button>
+                        <h3 class="similar-product-name">Floral Peach</h3>
+                        <p class="sim-product-price">BDT 1399</p>
+                        
+                    </div>
+                </div>
+                <div class="similar-product">
+                    <div class="similar-product-image">
+                        <img class="similar-img" src="img/productImg/6.jpg" alt="">
+                        <button class="view-button">
+                            <a href="#">view product</a>
+                        </button>
+                        <h3 class="similar-product-name">Floral Peach</h3>
+                        <p class="sim-product-price">BDT 1399</p>
+                        
+                    </div>
+                </div>
+                <div class="similar-product">
+                    <div class="similar-product-image">
+                        <img class="similar-img" src="img/productImg/7.webp" alt="">
+                        <button class="view-button">
+                            <a href="#">view product</a>
+                        </button>
+                        <h3 class="similar-product-name">Floral Peach</h3>
+                        <p class="sim-product-price">BDT 1399</p>
+                        
+                    </div>
+                </div>
+                <div class="similar-product">
+                    <div class="similar-product-image">
+                        <img class="similar-img" src="img/productImg/9.webp" alt="">
+                        <button class="view-button">
+                            <a href="#">view product</a>
+                        </button>
+                        <h3 class="similar-product-name">Floral
+                             Peach</h3>   
+                    </div>
+                </div>
+            </div>
+
+            <div class="prevarrow">
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="nextarrow">
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+            
+        </div>
+
+        <div class="view-btn">
+            <a href="/products">view more</a>
+        </div>
+    </div>
+
+    <div id="top-collections">
+        <!-- <h2>shop collection</h2> -->
+        <%- include('../partials/collection_images') %>
+
+    </div>
+
+    <!-- <%- include('../partials/support_features') %> -->
+    <%- include('../partials/support_features_2') %>
+
+    <%- include('../partials/footer') %>
+    <%- include('../partials/scripts') %>
+    
+</body>
+</html>

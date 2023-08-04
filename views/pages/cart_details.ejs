@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/header_2') %>
+    <link rel="stylesheet" href="/css/cart.css">
+
+    <style>
+        main{
+            margin-top: 180px;
+        }
+    </style>
+</head>
+<body>
+
+    <%- include('../partials/sticky-nav') %>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Cart Details</h2>
+                    <hr/>
+                    <div class="cart_details">
+                        <div class="cart-title d-flex text-center">
+                            <div>Product Name</div>
+                            <div>Quantity</div>
+                            <div>Price Per Product</div>
+                            <div>Total price</div>
+                            <div>Action</div>
+                        </div>
+                        <% for(let product of cartProducts) {%>
+                        <div class="cart-product d-flex justify-center text-center">
+                            <div> <%= product.title %> </div>
+                            <div> <%= product.quantity %> </div>
+                            <div>&#2547; <%= product.price %> </div>
+                            <div>&#2547; <%= product.cartPrice %> </div>
+                            <div>
+                                <form action="/cart/delete_item" method="post">
+                                    <input type="hidden" name="productId" value="<%= product.id %>">
+                                    <button class="btn btn-danger">Delete</button>
+                                </form>
+                            </div>
+                        </div>
+                        <% } %>
+                    </div>
+                    <div class="text-end total-price">
+                       <h3>Total Price: &#2547; <%= totalPrice %></h3> 
+                    </div>
+
+                    <div class="text-center">
+                        <button>
+                            <a href="#">Checkout</a>
+                        </button>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+  <%- include('../partials/footer') %>
+
+    
+    <!-- Bootstrap -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <!-- jQuery Script -->
+    <script src="/js/jquery.min.js"></script>
+
+    <!-- Swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Slick-slider script -->
+    <script src="/js/slick-carousel_1.8.1_slick.js"></script>
+    <!-- magnify on hover plugin -->
+    <script src="/js/extm.min.js"></script>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>

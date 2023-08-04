@@ -1,0 +1,237 @@
+[
+    {
+      "id": "0",
+      "name": "Light Peach Floral Printed Cotton Belt Round Dress",
+      "hasDiscount": false,
+      "originalPrice": 1190,
+      "image": ["0.webp", "0.webp", "0.webp", "0.webp"],
+      "star": 4,
+      "catagory": "Dress"
+    },
+    {
+      "id": "1",
+      "name": "Deep Voilet Neck Line Lace Worked Round Dress",
+      "hasDiscount": false,
+      "originalPrice": 1390,
+      "image": ["1.webp"],
+      "star": 5,
+      "catagory": "Dress"
+    },
+    {
+      "id": "2",
+      "name": "Chilled Orange Printed Cotton Anarkali Dress",
+      "hasDiscount": true,
+      "originalPrice": 1490,
+      "image": ["2.webp"],
+      "star": 3,
+      "catagory": "Dress"
+    },
+    {
+      "id": "3",
+      "name": "Light Sky Blue Printed Cotton Straight Kurti",
+      "hasDiscount": false,
+      "originalPrice": 990,
+      "image": ["3.webp"],
+      "star": 4,
+      "catagory": "Straight Kurti"
+    },
+    {
+      "id": "4",
+      "name": "Light Turquoise Printed Cotton Straight Kurti",
+      "hasDiscount": false,
+      "originalPrice": 990,
+      "image": ["4.webp"],
+      "star": 3,
+      "catagory": "Straight Kurti"
+    },
+    {
+      "id": "5",
+      "name": "Purple Printed Cotton Straight Kurti",
+      "hasDiscount": false,
+      "originalPrice": 1500,
+      "image":[ "5.webp"],
+      "star": 5,
+      "catagory": "Straight Kurti"
+    },
+    {
+      "id": "6",
+      "name": "Pastel Floral Printed Cotton Straight Kurti",
+      "hasDiscount": false,
+      "originalPrice": 990,
+      "image":[ "6.jpg"],
+      "star": 5,
+      "catagory": "Straight Kurti"
+    },
+    {
+      "id": "7",
+      "name": "Hot Red Floral Printed Cotton Straight Kurti",
+      "hasDiscount": false,
+      "originalPrice": 990,
+      "image": ["7.webp"],
+      "star": 5,
+      "catagory": "Straight Kurti"
+    },
+    {
+      "id": "8",
+      "name": "Deep Pink Printed Cotton Straight Kurti",
+      "hasDiscount": false,
+      "originalPrice": 990,
+      "image": ["8.jpg"],
+      "star": 5,
+      "catagory": "Straight Kurti"
+    },
+    {
+      "id": "9",
+      "name": "Jet Black Printed Cotton Straight Kurti",
+      "hasDiscount": false,
+      "originalPrice": 990,
+      "image": ["9.webp"],
+      "star": 5,
+      "catagory": "Straight Kurti"
+    },
+    {
+      "id": "10",
+      "name": "Soothing Paste Printed Straight Kurti",
+      "hasDiscount": false,
+      "originalPrice": 990,
+      "image": ["10.webp"],
+      "star": 5,
+      "catagory": "Straight Kurti"
+    },
+    {
+      "id": "11",
+      "name": "Soothing Turquoise Printed Cotton Straight Kurti",
+      "hasDiscount": false,
+      "originalPrice": 990,
+      "image": ["11.webp"],
+      "star": 5,
+      "catagory": "Straight Kurti"
+    },
+    {
+      "id": "12",
+      "name": "Blue Floral Printed Cotton Straight Kurti",
+      "hasDiscount": false,
+      "originalPrice": 990,
+      "image":[ "12.jpeg"],
+      "star": 5,
+      "catagory": "Straight Kurti"
+    },
+    {
+      "id": "13",
+      "name": "Light Turquoise Printed Cotton A Line Kurti",
+      "hasDiscount": false,
+      "originalPrice": 1390,
+      "image": ["13.webp"],
+      "star": 5,
+      "catagory": "A Line Kurti"
+    },
+    {
+      "id": "14",
+      "name": "Bright Red Printed Cotton A Line Kurti",
+      "hasDiscount": false,
+      "originalPrice": 1390,
+      "image": ["14.webp"],
+      "star": 5,
+      "catagory": "A Line Kurti"
+    },
+    {
+      "id": "15",
+      "name": "Hot Yellow Printed Cotton A Line Kurti",
+      "hasDiscount": false,
+      "originalPrice": 1390,
+      "image":[ "13.webp"],
+      "star": 5,
+      "catagory": "A Line Kurti"
+    },
+    {
+      "id": "16",
+      "name": "Sounds Good But No Black Tee",
+      "hasDiscount": false,
+      "originalPrice": 390,
+      "image": ["16.webp"],
+      "star": 5,
+      "catagory": "T Shirt"
+    },
+    {
+      "id": "17",
+      "name": "Inspire Before Expire Black Tee",
+      "hasDiscount": false,
+      "originalPrice": 390,
+      "image": ["17.webp"],
+      "star": 5,
+      "catagory": "T Shirt"
+    },
+    {
+      "id": "18",
+      "name": "Limited Edition",
+      "hasDiscount": false,
+      "originalPrice": 390,
+      "image": ["18.webp"],
+      "star": 5,
+      "catagory": "T Shirt"
+    },
+    {
+      "id": "19",
+      "name": "Blessed Yellow- Black Tee",
+      "hasDiscount": false,
+      "originalPrice": 390,
+      "image": ["19.webp"],
+      "star": 5,
+      "catagory": "T Shirt"
+    },
+    {
+      "id": "20",
+      "name": "Greenish",
+      "hasDiscount": false,
+      "originalPrice": 1190,
+      "image": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
+      "star": 4,
+      "catagory": "Two Piece"
+    },
+    {
+      "id": "21",
+      "name": "Red",
+      "hasDiscount": false,
+      "originalPrice": 1190,
+      "image": ["5.jpg", "6.jpg", "7.jpg", "8.jpg"],
+      "star": 4,
+      "catagory": "Kurti"
+    },
+    {
+      "id": "22",
+      "name": "Firoza",
+      "hasDiscount": false,
+      "originalPrice": 1190,
+      "image": ["set_2-1.jpg", "set_2-2.jpg", "set_2-3.jpg", "set_2-4.jpg"],
+      "star": 4,
+      "catagory": "Two Piece"
+    },
+    {
+      "id": "23",
+      "name": "Komola",
+      "hasDiscount": false,
+      "originalPrice": 1190,
+      "image": ["set_2-5.jpg", "set_2-6.jpg", "set_2-7.jpg", "set_2-*.jpg"],
+      "star": 4,
+      "catagory": ""
+    },
+   {
+      "id": "24",
+      "name": "White Jacket",
+      "hasDiscount": false,
+      "originalPrice": 1190,
+      "image": ["set_3_2.jpg", "set_3_3.jpg"],
+      "star": 4,
+      "catagory": "Western"
+    },
+   {
+      "id": "25",
+      "name": "Floral Jacket",
+      "hasDiscount": false,
+      "originalPrice": 1190,
+      "image": ["set_3_1.jpg"],
+      "star": 4,
+      "catagory": "Western"
+    }
+  ]
+  
